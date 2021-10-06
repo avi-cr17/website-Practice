@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.onhover {
+  transition: transform 0.2s;
+}
+
+.onhover:hover {
+  border-bottom: 1px solid #b4161b;
+}
