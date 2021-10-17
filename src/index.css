@@ -24,12 +24,23 @@ h1 {
   color: #1f83c1;
 }
 
-.nave {
+.navBig {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 20;
   font: 2rem sans-serif;
+  color: green;
+  background-color: lightskyblue;
+}
+
+.navSmall {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  font: 1rem sans-serif;
+  background-color: lightskyblue;
   color: green;
 }
 
